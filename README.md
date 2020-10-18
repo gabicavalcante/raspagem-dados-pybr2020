@@ -3,7 +3,7 @@ Repositório com materiais e conteúdo para palestra da pybr2020.
 
 ### problema
 
-- queríamos descobrir quanto tempo de reunião na câmara era gasto com título de cidadão natalense.
+_queríamos descobrir quanto tempo de reunião na câmara era gasto com título de cidadão natalense._
 
 ### sobre os dados
 
