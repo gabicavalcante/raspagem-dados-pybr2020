@@ -1,0 +1,1 @@
+python bs4/crawler.py  0,55s user 0,14s system 8% cpu 7,848 total

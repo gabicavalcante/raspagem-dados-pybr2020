@@ -1,0 +1,1 @@
+scrapy runspider scrapy/crawler.py  1,11s user 0,30s system 17% cpu 7,916 total
