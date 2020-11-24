@@ -1,10 +1,6 @@
 import scrapy
 import requests
-
-from urllib.parse import urlencode
 from scrapy.http import FormRequest
-
-params = {"ano_id": "8", "mes_id": "04"}
 
 def clean(name):
   return name.lstrip().lower().replace(' ', '_').replace('/', '_').replace('-', '_')
@@ -14,6 +10,7 @@ class DocSpider(scrapy.Spider):
     start_url = "https://www.cmnat.rn.gov.br/ordens/send"
 
     def start_requests(self):
+        params = {"ano_id": "8", "mes_id": "04"}
         yield FormRequest(self.start_url, callback=self.parser, formdata=params)
 
     def parser(self, response):
